@@ -1,13 +1,6 @@
 module.exports = {
   extends: ['eslint:recommended', 'prettier', 'prettier/react'],
   parser: 'babel-eslint',
-  // parserOptions: {
-  //   sourceType: 'module',
-  //   ecmaVersion: 2017,
-  //   ecmaFeatures: {
-  //     experimentalObjectRestSpread: true
-  //   }
-  // },
   env: {
     es6: true,
     browser: true
